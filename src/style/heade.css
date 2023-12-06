@@ -1,0 +1,209 @@
+.corpo-nav{
+    background-color: rgb(4, 77, 12);
+    color: #ffffff;
+    padding-bottom: 2px;
+ 
+  
+}.itens-nav{
+    display: flex;
+    justify-content: right;
+    margin-right: 25px;
+    padding: 13px;
+    position: relative;
+ 
+
+}.item{
+    text-decoration: none;
+    list-style: none;
+    font-size: 22.5px;
+    margin: 12.5px;
+    cursor: pointer;
+    margin-right: 25px;
+    padding-right: 35px;
+    list-style-type: none;
+    color: #ffffff;
+    
+
+   
+  
+
+
+}.item:hover{
+    font-weight: initial;
+    text-decoration: underline;
+}
+
+
+.logo-barra{
+    position: absolute  ;
+    padding: 10px;
+    margin-left: 15px;
+    margin: 10px;
+    color: aqua;
+    font-size: 25px;
+
+}.logo{
+    width: 110px;
+    margin-top: -21px;
+}
+
+
+@media (max-width: 800px) {
+  
+.itens-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin-right: 25px;
+    padding: 13px;
+    position: relative;
+ 
+
+}.corpo-nav{
+    background-color: rgb(4, 77, 12);
+    color: #ffffff;
+    padding: 40px;
+ 
+  
+}.logo{
+    width: 105px;
+    margin-top: 25px;
+    margin-left: -14%;
+    margin-left: -40%;
+}.logo-barra{
+    position: absolute  ;
+    padding: 10px;
+    margin-left: -5px;
+    margin: 10px;
+    color: aqua;
+    font-size: 25px;
+
+}
+.corpo-nav {
+    background-color: rgb(4, 77, 12);
+    color: #ffffff;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between; /* Adicionado para espaçamento entre o logo e os itens do menu */
+    align-items: center; /* Adicionado para alinhar verticalmente o conteúdo */
+}
+
+.itens-nav {
+    display: none;
+    flex-direction: column; /* Alterado para layout em coluna */
+    position: absolute;
+    top: 60px;
+    right: 0; /* Posicionado à direita */
+    background-color: #333;
+    text-align: center;
+    width: 100%;
+}
+
+.itens-nav a {
+    text-decoration: none;
+    color: white;
+    margin: 10px 0;
+}
+
+.menu-toggle {
+    font-size: 2.6rem;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-top: -25px;
+}
+
+
+    }
+    
+
+
+
+
+
+
+@media (max-width: 500px) {
+  
+    .itens-nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: right;
+        margin-right: 25px;
+        padding: 13px;
+        position: relative;
+     
+    
+    }.corpo-nav{
+        background-color: rgb(4, 77, 12);
+        color: #ffffff;
+        padding: 40px;
+     
+      
+    }.logo{
+        width: 100px;
+        margin-top: 25px;
+        margin-left: -14%;
+        margin-left: -50%;
+    }.logo-barra{
+        position: absolute  ;
+        padding: 10px;
+        margin-left: -5px;
+        margin: 10px;
+        color: aqua;
+        font-size: 25px;
+    
+    }
+    .corpo-nav {
+        background-color: rgb(4, 77, 12);
+        color: #ffffff;
+        padding-bottom: 25px;
+        display: flex;
+        justify-content: space-between; /* Adicionado para espaçamento entre o logo e os itens do menu */
+        align-items: center; /* Adicionado para alinhar verticalmente o conteúdo */
+    }
+    
+    .itens-nav {
+        display: none;
+        flex-direction: column; /* Alterado para layout em coluna */
+        position: absolute;
+        top: 60px;
+        right: 0; /* Posicionado à direita */
+        background-color: #333;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .itens-nav a {
+        text-decoration: none;
+        color: white;
+        margin: 10px 0;
+    }
+    
+    .menu-toggle {
+        font-size: 2.6rem;
+        cursor: pointer;
+        display: block;
+        margin-left: auto;
+        margin-top: -15px;
+    }
+    
+    
+        }
+        
+    
+
+    /* Adicione este código no seu arquivo de estilo (styles.css ou heade.css) */
+@media (min-width: 800px) {
+    .itens-nav {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        background-color: transparent;
+        width: auto;
+    }
+}
+@media (min-width: 800px) {
+    .menu-toggle {
+        display: none; /* Esconder o ícone quando a tela for maior que 800px */
+    }
+}
